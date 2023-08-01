@@ -1,0 +1,88 @@
+*{
+   margin: 0px;
+   padding: 0px; 
+}
+body{
+    background-image: url(wave-background-abstract-gradient-design_483537-3688\ \(1\).avif);
+}
+.container{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 50px;
+    border-bottom: 2px solid pink;
+    border-left: 2px solid rgb(140, 203, 224);
+    border-top: 2px solid pink;
+    border-right: 2px solid rgb(140, 203, 224);
+}
+.div{
+    height: 40px;
+    width: 300px;
+    border-radius: 2px solid white;
+    background-color: pink;
+    margin-left: 100px;
+    margin-top: 40px;
+    border-radius: 50px;
+    position: relative;
+}
+.label{
+    font-size: 30px;
+    color: rgb(8, 8, 8);
+    font-family: 'Times New Roman', Times, serif;
+    padding:80px;
+    padding-top: 10px;
+    margin-top: -5px;
+    position: absolute;
+}
+.divemail h1{
+    color: white;
+    padding: 30px 110px;
+    font-size: 25px;
+}
+.divemail h4{
+    color: white;
+    padding: 5px 110px;
+    display: none;
+    color: red;
+}
+input{
+    height: 40px;
+    width: 300px;
+    border: transparent;
+    margin-left: 100px;
+    margin-top: -50px;
+    background-color: transparent;
+    color: white;
+    border-bottom: 2px solid white;
+    outline: none;
+    cursor: pointer;
+}
+.divpassword h1{
+    color: white;
+    padding: 30px 110px;
+    font-size: 25px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    border: transparent;
+    margin-top: 70px;
+    margin-left: 200px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.divpassword h4{
+    color: white;
+    padding: 5px 110px;
+    display: none;
+    color: red;
+}

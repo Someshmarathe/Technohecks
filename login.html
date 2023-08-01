@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login paege</title>
+    <link rel="stylesheet" href="login.css" type="text/css"/>
+    <script type="text/javascript" src="login.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form action="home.html"   method="post" class="loginform"  onsubmit="return validate()" name="myForm"> 
+            <div class="div">
+            <span class="label">User Login</span>
+            </div>
+            <div class="divemail">
+            <h1>Enter your Email</h1>
+            <input type="text" name="email" placeholder="enter your email"/>
+            <h4 id="error">*Enter your correct email</h4>
+            </div>
+            <div class="divpassword">
+                <h1>Enter your password</h1>
+                <input type="password" name="password" placeholder="enter your password"/>
+                <h4 id="errorpass">*Enter your password</h4>
+            </div>
+            <button type="submit">login</button>
+       </form>
+    </div>
+</body>
+</html>
