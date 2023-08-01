@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(wave-background-abstract-gradient-design_483537-3688\ \(1\).avif) ;
+}
+.main{
+    height: 400px;
+    width:600px;
+    border:1px solid whitesmoke;
+    margin: auto;
+    margin-top: 150px;
+    position: relative;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 0px 0px 164px -83px white;
+}
+#start{
+    height: 50px;
+    width: 150px;
+    border: transparent;
+    background-color: tomato;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#stop{
+    height: 50px;
+    width: 150px;
+    border: transparent;
+    background-color: tomato;
+    color: white;
+    position: absolute;
+    margin-left: 225px;
+    bottom: 20px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#reset{
+    height: 50px;
+    width: 150px;
+    border: transparent;
+    background-color: tomato;
+    color: white;
+    position: absolute;
+    margin-left: 400px;
+    bottom: 20px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#countdown{
+    font-size: 60px;
+    padding: 70px 20px;
+    color: whitesmoke;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    align-items: center;
+    margin-left: 160px;
+    margin-top: 20px;
+}
