@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:palevioletred;
+}
+.main{
+    height: 700px;
+    width: 600px;
+    background-color: white;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.label{
+    font-size: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+h3{
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 5px 80px;
+    margin-top: 5px;
+}
+input{
+    height: 40px;
+    width: 450px;
+    margin-left: 80px;
+    outline: none;
+    border: 1px solid rgb(141, 135, 135);
+    padding-left: 5px;
+}
+#errorname{
+    font-size: 15px;
+    padding:1px 80px;
+    display: none;
+    color: red;
+}
+#erroremail{
+    font-size: 15px;
+    padding:1px 80px;
+    display: none;
+    color: red;
+}
+#errornumber{
+    font-size: 15px;
+    padding:1px 80px;
+    display:none;
+    color: red;
+}
+#errorfield{
+    font-size: 15px;
+    padding:1px 80px;
+    display:none;
+    color: red;
+}
+h4{
+    font-size: 15px;
+    padding:1px 80px;
+    display: none;
+    color: red;
+}
+#domain , select {
+    height: 40px;
+    width: 450px;
+    margin-left: 80px;
+    outline: none;
+    border: 1px solid silver;
+    background-color: transparent;
+    overflow: hidden;
+}
+button{
+    height: 35px;
+    width: 90px;
+    margin-left: 80px;
+    background-color: transparent;
+    border: transparent;
+    background-color:rgb(7, 115, 182);
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}

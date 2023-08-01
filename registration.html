@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ragistration From</title>
+    <link rel="stylesheet" href="ragistration.css" type="text/css"/>
+    <script type="text/javascript" src="ragistration.js"></script>
+</head>
+<body>
+    <div class="main">
+       <form  action="home.html"  name="Fname" method="post" class="registrationForm"  onsubmit="return validateForm()">
+        <div class="label">Registration Form</div>
+        <h3>Full Name</h3>
+        <input type="text" placeholder="Enter Your Name" name="iname"/>
+        <h4 id="errorname">*Plaese Enter your full name</h4>
+        <h3>Email</h3>
+        <input type="text" placeholder="Enter Your Email" name="ename"/>
+        <h4 id="erroremail">*please Enter your correct email</h4>
+        <h3>WhatsApp Number</h3>
+        <input type="number" placeholder="Enter Your Email" name="nname"/>
+        <h4 id="errornumber">*please Enter your correct email</h4>
+        <h3>Collage Name</h3>
+        <input type="text" placeholder="Collage Name" name="cname"/>
+        <h4 id="errorcname">*Plaese Enter your collage name</h4>
+        <h3> Current Qualification and Year</h3>
+        <input type="text" placeholder="your answer" name="yname"/>
+        <h4 id="erroryname">*Plaese enter Qualification</h4>
+        <h3>Select field</h3>
+        <select id="field">
+         <option></option>
+         <option>BCA</option>
+         <option>MCA</option>
+         <option>B Tech</option>
+         <option>M Tech</option>
+         <option>B Com</option>
+         <option>M Com</option>
+        </select>
+        <h4 id="errorfield">*please select Domain</h4>
+        <h3>Select Domain</h3>
+        <select id="domain">
+         <option></option>
+         <option>C language</option>
+         <option>C++ language</option>
+         <option>java programing</option>
+         <option>Machine learing</option>
+         <option>Web Development</option>
+         <option>Data Analist</option>
+        </select>
+        <h4  id="errordomain">*please select Domain</h4>
+        <button type="submit">Submit</button>
+       </form>
+    </div>
+</body>
+</html>
